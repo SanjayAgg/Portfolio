@@ -20,7 +20,7 @@ export const Header = () => {
                     Sanjay Aggarwal
                   </h1>
                   <span className="text-xs text-gray-700 font-semibold uppercase block mt-3">
-                    "Project Manager / Web Developer"
+                    &quot;Project Manager / Web Developer&quot;
                   </span>
                 </div>
                 <div className="hidden md:block w-full">

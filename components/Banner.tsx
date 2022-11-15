@@ -53,7 +53,7 @@ export const Banner = () => {
             <div className={`flex-col w-full p-8 bg-white`}>
               <h2 className="text-3xl font-bold">Hello</h2>
               <p className="md:text-lg text-base font-bold mt-3">
-                Here's who I am & what I do
+                Here&apos;s who I am & what I do
               </p>
               <div className="grid grid-cols-2 gap-4 my-7">
                 <Link
@@ -73,13 +73,13 @@ export const Banner = () => {
                 </Link>
               </div>
               <p className="text-sm font-normal mb-3">
-                I've had 7 years of experience. Throughout my career, I've had a
+                I&apos;ve had 7 years of experience. Throughout my career, I&apos;ve had a
                 variety of positions. I began my work as a wordpress developer,
                 building websites on WordPress using paid themes and customising
                 functionality based on user requirements.
               </p>
               <p className="text-sm font-normal mb-3">
-                I've spent the last five years managing teams, leading scrums,
+                I&apos;ve spent the last five years managing teams, leading scrums,
                 dealing with clients, delivering projects, and overseeing
                 project planning and execution.{" "}
               </p>
