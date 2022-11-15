@@ -2,7 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '',
+  images : {
+    domains : ['localhost'],
+    formats: ['image/avif','image/webp'],
+    unoptimized: true,
+    // path: '/',
+  },
 }
 
 module.exports = nextConfig
