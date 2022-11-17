@@ -83,7 +83,7 @@ export const Footer = () => {
                 </Link>
 
                 <Link
-                  href="https://github.com/SanjayAgg/Portfolio"
+                  href="https://github.com/SanjayAgg"
                   className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-violet-400 dark:text-gray-900"
                   target={"_blank"}
                 >
