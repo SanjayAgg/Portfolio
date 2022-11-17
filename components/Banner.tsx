@@ -6,8 +6,8 @@ import styles from "../styles/Banner.module.css";
 export const Banner = () => {
   return (
     <>
-      <div className={`${styles.banner} md:h-screen h-full relative block`}>
-        <div className="max-w-screen-md mx-auto px-2 py-1 h-full flex flex-1 pt-28 pb-12 md:pt-0 md:pb-0">
+      <div className={`${styles.banner} md:h-max h-full relative block`}>
+        <div className="max-w-screen-md mx-auto px-2 h-full flex flex-1 pt-36 pb-12 md:pb-12">
           <div
             className={`flex md:flex-row flex-col items-center justify-center text-left my-auto bg-white`}
           >
@@ -32,6 +32,7 @@ export const Banner = () => {
                 <span className="hidden md:block">&nbsp;</span>
                 <Link
                   href={"https://www.linkedin.com/in/sanjay-sjeetaggarwal/"}
+                  target={"_blank"}
                 >
                   <Image
                     src={"linkedin.png"}
@@ -57,9 +58,7 @@ export const Banner = () => {
               </p>
               <div className="grid grid-cols-2 gap-4 my-7">
                 <Link
-                  href={
-                    "https://drive.google.com/file/d/1EsypbMFjBLcxgdRBelDKbxA7giaE9-zW/view?usp=sharing"
-                  }
+                  href={"Sanjay_Aggarwal_Project_Manager.pdf"}
                   className="bg-blue-700 text-white p-3 text-center rounded-full uppercase"
                   target={"_blank"}
                 >
@@ -68,20 +67,21 @@ export const Banner = () => {
                 <Link
                   href={"https://www.linkedin.com/in/sanjay-sjeetaggarwal/"}
                   className="bg-white text-black border-2 border-black rounded-full text-center p-3 uppercase hidden"
+                  target={"_blank"}
                 >
                   Projects
                 </Link>
               </div>
               <p className="text-sm font-normal mb-3">
-                I&apos;ve had 7 years of experience. Throughout my career, I&apos;ve had a
-                variety of positions. I began my work as a wordpress developer,
-                building websites on WordPress using paid themes and customising
-                functionality based on user requirements.
+                I&apos;ve had 7 years of experience. Throughout my career,
+                I&apos;ve had a variety of positions. I began my work as a
+                wordpress developer, building websites on WordPress using paid
+                themes and customising functionality based on user requirements.
               </p>
               <p className="text-sm font-normal mb-3">
-                I&apos;ve spent the last five years managing teams, leading scrums,
-                dealing with clients, delivering projects, and overseeing
-                project planning and execution.{" "}
+                I&apos;ve spent the last five years managing teams, leading
+                scrums, dealing with clients, delivering projects, and
+                overseeing project planning and execution.{" "}
               </p>
             </div>
           </div>

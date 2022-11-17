@@ -33,14 +33,14 @@ export const Header = () => {
                     </Link>
 
                     <Link
-                      href="#"
+                      href="/projects"
                       className="text-black px-3 rounded-md text-sm font-medium"
                     >
                       Projects
                     </Link>
 
                     <Link
-                      href="#"
+                      href="/contact"
                       className="text-black px-3 rounded-md text-sm font-medium"
                     >
                       Contact
