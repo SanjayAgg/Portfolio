@@ -73,7 +73,7 @@ export const Banner = () => {
                 </Link>
               </div>
               <p className="text-sm font-normal mb-3">
-                I&apos;ve had 7 years of experience. Throughout my career,
+                I&apos;ve 7 years of experience. Throughout my career,
                 I&apos;ve had a variety of positions. I began my work as a
                 wordpress developer, building websites on WordPress using paid
                 themes and customising functionality based on user requirements.
