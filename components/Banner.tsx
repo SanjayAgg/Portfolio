@@ -58,7 +58,7 @@ export const Banner = () => {
               </p>
               <div className="grid grid-cols-2 gap-4 my-7">
                 <Link
-                  href={"Sanjay_Aggarwal_Project_Manager.pdf"}
+                  href={"Sanjay_Aggarwal_Developer_and_Project_Manager.pdf"}
                   className="bg-blue-700 text-white p-3 text-center rounded-full uppercase"
                   target={"_blank"}
                 >
@@ -73,7 +73,7 @@ export const Banner = () => {
                 </Link>
               </div>
               <p className="text-sm font-normal mb-3">
-                I&apos;ve 7 years of experience. Throughout my career,
+                I&apos;ve 8 years of experience. Throughout my career,
                 I&apos;ve had a variety of positions. I began my work as a
                 wordpress developer, building websites on WordPress using paid
                 themes and customising functionality based on user requirements.

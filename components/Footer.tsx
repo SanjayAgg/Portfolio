@@ -6,7 +6,7 @@ export const Footer = () => {
     <>
       <footer className="px-4 divide-y dark:bg-gray-800 dark:text-gray-100">
         <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
-          <div className="lg:w-2/5 text-sm">©2022 by Sanjay</div>
+          <div className="lg:w-2/5 text-sm">©2023 by Sanjay</div>
           <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-3/5 sm:grid-cols-3">
             <div className="space-y-3">
               <h3 className="tracking-wide dark:text-gray-50 font-medium mb-3">
